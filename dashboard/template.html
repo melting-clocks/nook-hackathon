@@ -1,0 +1,197 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nook eval</title>
+<style>
+:root{--bg:#262624;--card:#30302e;--soft:#2a2a28;--line:#3d3d3a;--ink:#faf9f5;--mute:#a6a39a;--a:#d97757;--b:#6a9bcc;--ok:#7fb685;--part:#d4a64a;--bad:#e06c6c;--na:#3d3d3a}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:40px 24px 72px;display:flex;flex-direction:column;gap:24px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{font-size:22px;font-weight:600;margin:0;letter-spacing:-.01em}h2{font-size:15px;font-weight:600;margin:0 0 16px}
+.mute{color:var(--mute)}.small{font-size:12px}
+select{font:inherit;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.score{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.side{border-radius:12px;padding:20px;background:var(--soft);border:1px solid var(--line);position:relative}
+.name{font-weight:600;display:flex;align-items:center;gap:8px}.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.bigrow{display:flex;align-items:baseline;gap:10px;margin:10px 0 2px}.big{font-size:40px;font-weight:650;letter-spacing:-.02em;line-height:1.1}
+.part{color:var(--part);font-size:13px}
+.win{position:absolute;top:18px;right:18px;font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;background:var(--ink);color:var(--bg)}
+.kv{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:var(--mute)}.kv b{color:var(--ink);font-weight:600}
+.step{display:grid;grid-template-columns:200px 1fr;gap:16px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}.step:first-child{border-top:0;padding-top:0}
+.step.sep{border-top:1px dashed var(--line);margin-top:6px}
+.bars{display:grid;gap:6px}.bar{display:grid;grid-template-columns:1fr 52px;gap:10px;align-items:center;font-size:12px;color:var(--mute)}
+.track{height:12px;background:var(--soft);border-radius:6px;overflow:hidden}.fill{height:100%;border-radius:6px}
+.lost{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.lostrow{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:8px 0;border-bottom:1px solid var(--line)}.lostrow span:first-child{white-space:nowrap}.lostrow span:last-child{color:var(--mute);text-align:right}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:99px;padding:5px 12px;font:inherit;font-size:12px;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}.chip .ct{color:var(--mute);margin-left:4px}.chip.on .ct{color:var(--bg);opacity:.6}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--mute);margin-left:auto;align-items:center}
+.q{border-top:1px solid var(--line)}.q>button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:44px 1fr 170px 170px;gap:12px;align-items:center;width:100%;padding:12px 8px;border-radius:8px}
+.q>button:hover{background:var(--soft)}.qid{color:var(--mute);font-size:12px}
+.tags{display:inline-flex;gap:4px;margin-left:8px;vertical-align:1px}.tag{font-size:10px;color:var(--mute);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.verdict{display:flex;align-items:center;gap:8px;font-size:12px}.journey{display:flex;gap:3px;align-items:center}
+.journey i{width:12px;height:12px;border-radius:3px;background:transparent;border:1px solid var(--line)}
+.journey i.y{background:var(--ok);border-color:var(--ok)}.journey i.n{background:var(--bad);border-color:var(--bad)}.journey i.p{background:var(--part);border-color:var(--part)}.journey i.x{background:var(--na);border-color:var(--na)}
+.ev{font-size:9px;font-weight:700;line-height:12px;height:14px;min-width:14px;text-align:center;border-radius:3px;padding:0 2px;margin-left:3px;color:var(--bg)}
+.ev.y{background:var(--ok)}.ev.n{background:var(--bad)}.ev.u{background:transparent;color:var(--mute);border:1px solid var(--line)}
+.vt{color:var(--mute)}.vt.y{color:var(--ok)}.vt.n{color:var(--bad)}.vt.p{color:var(--part)}
+.detail{display:none;padding:4px 8px 20px 64px}.q.open .detail{display:block}
+.gold{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px;font-size:13px}
+.lbl{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em;margin:10px 0 4px}.lbl:first-child{margin-top:0}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mbox{border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13px;min-width:0}
+.ans{white-space:pre-wrap}
+.ctx{white-space:pre-wrap;word-break:break-word;font:12px/1.45 ui-monospace,Menlo,monospace;background:var(--soft);border-radius:8px;padding:10px;max-height:200px;overflow:auto;color:#d6d3ca}
+mark{background:#f0c674;color:#262624;border-radius:2px}
+a{color:var(--b)}code{font-size:12px;background:var(--soft);border:1px solid var(--line);padding:2px 6px;border-radius:6px}
+.prog{display:grid;grid-template-columns:200px 1fr 1fr;gap:8px 24px;align-items:center}
+.prog .hd{font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em;display:flex;align-items:center;gap:6px}
+.prog .ev{all:unset}.pname{font-weight:600}.pmeta{font-size:12px;color:var(--mute)}
+.pcell{display:grid;grid-template-columns:1fr 200px;gap:10px;align-items:center;font-size:13px}.pcell b{font-weight:600}.pcell .mute{font-size:12px}
+.prow{display:contents}.prog>div{padding:8px 0}.prog .rule{grid-column:1/-1;border-top:1px solid var(--line);padding:0}
+.like{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line);display:grid;grid-template-columns:200px 1fr 1fr;gap:24px;align-items:center}
+.seq{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px}.seq .arr{color:var(--mute)}.seq .lab{font-size:11px;color:var(--mute);margin-right:2px}
+.delta{font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;border:1px solid var(--line)}.delta.up{color:var(--ok)}.delta.down{color:var(--bad)}
+.empty{color:var(--mute);font-size:13px;padding:12px 0}
+</style></head><body><div class="wrap">
+<header><div><h1>Nook eval</h1><div class="mute small" id="runinfo"></div></div>
+<div class="mute"><select id="selA"></select> vs <select id="selB"></select></div></header>
+
+<div class="card"><div class="score" id="score"></div></div>
+
+<div class="card" id="progcard"><h2>Progress</h2><div class="prog" id="prog"></div><div class="like" id="like"></div></div>
+
+<div class="card"><h2>Where answers get lost</h2><div id="funnel"></div></div>
+
+<div class="card"><h2>Problems</h2><div class="lost" id="lost"></div></div>
+
+<div class="card"><h2>Questions</h2>
+<div class="tools" id="chips"><span class="legend"><span>search · filter · returned · answer</span><span><span class="dot" style="background:var(--ok)"></span> pass</span><span><span class="dot" style="background:var(--part)"></span> partial</span><span><span class="dot" style="background:var(--bad)"></span> fail</span></span></div>
+<div id="qs"></div></div>
+
+<div class="mute small" id="foot"></div>
+</div>
+<script>
+const D=/*DATA*/null;
+const $=s=>document.querySelector(s),el=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e};
+const dot=c=>{const d=el('span','dot');d.style.background=c;return d};
+const ids=Object.keys(D.methods),selA=$('#selA'),selB=$('#selB');
+for(const s of [selA,selB])for(const id of ids)s.append(new Option(D.methods[id].label,id));
+selA.value=ids.includes('cards_decisions_v1')?'cards_decisions_v1':ids[0];selB.value=ids.includes('elastic_decisions_v1')?'elastic_decisions_v1':(ids[1]||ids[0]);
+const Q=D.questions,N=Q.length,QI=Object.fromEntries(Q.map(q=>[q.id,q]));
+const GOLD=Q.filter(q=>q.gold.length).length,EVN=Q.filter(q=>q.evidence).length,HARD=Q.filter(q=>q.hard).length,HID=Q.filter(q=>q.hidden).length;
+$('#runinfo').textContent=(D.run.when?new Date(D.run.when).toLocaleString()+' · ':'')+N+' questions'+(D.run.label?' · '+D.run.label:'');
+{const f=$('#foot');f.append('Run again: ',el('code','',D.run.rebuild||'python3 dashboard/build.py <data_dir> <out.html>'))}
+const color=['var(--a)','var(--b)'];
+const pct=(a,p)=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y);return s[Math.min(s.length-1,Math.floor(p*s.length))]};
+const sec=v=>v==null?'—':(v/1000).toFixed(1)+'s';
+const ok=r=>r&&r.verdict==='correct';
+const cnt=(rows,f)=>rows.filter(f).length;
+const STEPS=[['Search found it',r=>r.steps[0]===true,GOLD,r=>r.n>0],['Filter kept it',r=>r.steps[1]===true,GOLD,r=>r.n>0],['Returned',r=>r.steps[2]===true,GOLD,r=>r.n>0],['Answered correctly',ok,N,()=>true]];
+const LOST=['Search missed','Filter dropped','Not returned','Answer wrong'];
+let filter='all';
+function rowsFor(m){return Object.fromEntries(m.rows.map(r=>[r.id,r]))}
+function render(){
+  const M=[D.methods[selA.value],D.methods[selB.value]],R=M.map(rowsFor);
+  // Scoreboard
+  const sc=$('#score');sc.replaceChildren();
+  const corr=M.map(m=>cnt(m.rows,ok)),part=M.map(m=>cnt(m.rows,r=>r.verdict==='partial'));
+  M.forEach((m,i)=>{const s=el('div','side'),n=el('div','name');n.append(dot(color[i]),m.label);s.append(n);
+    const br=el('div','bigrow');br.append(el('span','big',m.graded?`${corr[i]}/${N}`:'—'));if(part[i])br.append(el('span','part',`+${part[i]} partial`));s.append(br);
+    s.append(el('div','mute small',m.graded?'answered correctly':'not graded yet'));
+    const evr=m.rows.filter(r=>QI[r.id]&&QI[r.id].evidence);
+    const kv=el('div','kv');const add=(k,v)=>{const sp=el('span','',k+' ');sp.append(el('b','',v));kv.append(sp)};
+    add('exact evidence',`${cnt(evr,r=>r.evidence===true)}/${EVN}`);
+    add('hard',!m.graded?'—':`${cnt(m.rows,r=>QI[r.id]&&QI[r.id].hard&&ok(r))}/${HARD}`);
+    add('hidden',!m.graded?'—':`${cnt(m.rows,r=>QI[r.id]&&QI[r.id].hidden&&ok(r))}/${HID}`);
+    s.append(kv);
+    const ms=m.rows.map(r=>r.ms).filter(Number.isFinite),ranks=m.rows.map(r=>r.rank).filter(Boolean);
+    const kv2=el('div','kv');const add2=(k,v)=>{const sp=el('span','',k+' ');sp.append(el('b','',v));kv2.append(sp)};
+    add2('typical',sec(pct(ms,.5)));add2('slow',sec(pct(ms,.95)));add2('avg rank',ranks.length?'#'+(ranks.reduce((a,b)=>a+b,0)/ranks.length).toFixed(1):'—');
+    s.append(kv2);
+    const j=1-i,mine=corr[i]*2+part[i],theirs=corr[j]*2+part[j];
+    if(M[0]!==M[1]&&m.graded&&M[j].graded&&mine>theirs)s.append(el('div','win',corr[i]-corr[j]<=1?'slightly ahead':'winner'));
+    sc.append(s);});
+  progress(M);
+  // Funnel
+  const f=$('#funnel');f.replaceChildren();
+  const bars=(vals,dens)=>{const b=el('div','bars');vals.forEach((v,i)=>{const r=el('div','bar'),t=el('div','track'),fl=el('div','fill');fl.style.width=(dens?v/dens*100:0)+'%';fl.style.background=color[i];t.append(fl);r.append(t,el('div','',`${v}/${dens}`));b.append(r)});return b};
+  for(const [name,test,den] of STEPS){const row=el('div','step');row.append(el('div','',name),bars(M.map(m=>cnt(m.rows,test)),den));f.append(row);}
+  const er=el('div','step sep');er.append(el('div','','Exact evidence'),bars(M.map(m=>cnt(m.rows,r=>QI[r.id]&&QI[r.id].evidence&&r.evidence===true)),EVN));f.append(er);
+  // Problems
+  const lost=$('#lost');lost.replaceChildren();
+  M.forEach((m,i)=>{const box=el('div'),h=el('div','name');h.style.marginBottom='8px';h.append(dot(color[i]),m.label);box.append(h);
+    LOST.forEach((n,k)=>{const c=m.rows.filter(r=>r.stage===k+1);const r=el('div','lostrow');r.append(el('span','',n),el('span','',c.length?`${c.length} · ${c.map(x=>x.id.toUpperCase()).join(', ')}`:'0'));box.append(r);});
+    const deg=m.rows.filter(r=>r.degraded.length);if(deg.length)box.append(el('div','mute small',`${deg.length} degraded: ${[...new Set(deg.flatMap(r=>r.degraded))].join(', ')}`));
+    lost.append(box);});
+  // Questions
+  const list=$('#qs');list.replaceChildren();let shown=0;
+  for(const q of Q){
+    const ra=R[0][q.id],rb=R[1][q.id];
+    if(filter==='hard'&&!q.hard)continue;
+    if(filter==='hidden'&&!q.hidden)continue;
+    if(filter==='diff'&&ra&&rb&&ra.verdict===rb.verdict&&ra.stage===rb.stage)continue;
+    if(filter==='fail'&&ok(ra)&&ok(rb))continue;
+    shown++;
+    const wrap=el('div','q'),btn=el('button'),qt=el('span','',q.question),tg=el('span','tags');
+    if(q.hard)tg.append(el('span','tag','hard'));if(q.hidden)tg.append(el('span','tag','hidden'));if(!q.gold.length)tg.append(el('span','tag','not discussed'));
+    if(tg.childNodes.length)qt.append(tg);
+    btn.append(el('span','qid',q.id.toUpperCase()),qt);
+    for(const r of [ra,rb])btn.append(journey(q,r));
+    const det=el('div','detail'),g=el('div','gold');
+    g.append(el('div','lbl','Question'),el('div','',q.question),el('div','lbl','Answer key'),el('div','',q.answer||(q.gold.length?'':'Not in memory')));
+    for(const gd of q.gold){const line=el('div','mute small',gd.quotes.map(t=>'“'+t+'”').join(' · ')+(gd.speaker?' · '+gd.speaker:'')+(gd.time?' · '+gd.time:''));line.style.marginTop='6px';g.append(line);}
+    det.append(g);
+    const cmp=el('div','cmp');
+    [ra,rb].forEach((r,i)=>{const b=el('div','mbox'),h=el('div','name');h.append(dot(color[i]),M[i].label);b.append(h);
+      if(!r){b.append(el('div','empty','No run'));cmp.append(b);return}
+      const v=el('div','vt '+vcls(r.verdict),r.verdict?r.verdict[0].toUpperCase()+r.verdict.slice(1):'Not graded');v.style.marginTop='8px';v.style.fontWeight='600';b.append(v);
+      if(r.reason)b.append(el('div','mute small',r.reason));
+      b.append(el('div','lbl','Agent answer'),el('div','ans',r.agent_answer||'—'));
+      if(q.evidence)b.append(el('div','mute small',`Exact evidence: ${r.evidence==null?'—':r.evidence?'yes':'no'}`));
+      const meta=[];
+      if(r.n){meta.push('rank '+(r.ranks.map(k=>k?'#'+k:'—').join(', '))+' of '+r.candidates);if(r.n>1)meta.push(`found ${r.found}/${r.n} · kept ${r.kept}/${r.n} · returned ${r.returned}/${r.n}`);
+        const ps=r.probs.filter(p=>p!=null);if(ps.length)meta.push('filter '+ps.map(p=>p.toFixed(2)).join(', '));}
+      meta.push(`${sec(r.ms)} total`+(r.search_ms!=null?` · search ${sec(r.search_ms)}`:'')+(r.filter_ms!=null?` · filter ${sec(r.filter_ms)}`:''));
+      const mt=el('div','mute small',meta.join(' · '));mt.style.marginTop='8px';b.append(mt);
+      b.append(el('div','lbl','Context received'),ctxNode(r.context,q.gold.flatMap(gd=>gd.quotes)));
+      if(r.trace&&/^https:\/\/app\.dash0\.com\//.test(r.trace)){const a=el('a','small','Open this run in Dash0 ↗');a.href=r.trace;a.target='_blank';a.rel='noopener noreferrer';a.style.display='inline-block';a.style.marginTop='8px';b.append(a);}
+      cmp.append(b);});
+    det.append(cmp);btn.onclick=()=>wrap.classList.toggle('open');wrap.append(btn,det);list.append(wrap);}
+  if(!shown)list.append(el('div','empty','No questions'));
+}
+function progress(M){
+  const H=D.history||[],card=$('#progcard');card.style.display=H.length?'':'none';if(!H.length)return;
+  const keys=[selA.value,selB.value],p=$('#prog');p.replaceChildren();
+  p.append(el('div','hd',''));keys.forEach((k,i)=>{const h=el('div','hd');h.append(dot(color[i]),M[i].label);p.append(h)});
+  H.forEach(e=>{p.append(el('div','rule'));const nm=el('div');nm.append(el('div','pname',e.name||''),el('div','pmeta',[e.date,e.questions!=null?e.questions+' questions':null].filter(Boolean).join(' · ')),el('div','pmeta',e.note||''));p.append(nm);
+    keys.forEach((k,i)=>{const r=e.methods[k],c=el('div','pcell');
+      if(!r){c.append(el('span','mute','—'));p.append(c);return}
+      const t=el('div','track'),fl=el('div','fill');fl.style.width=(r.n?r.correct/r.n*100:0)+'%';fl.style.background=color[i];t.append(fl);
+      const fp=el('div','fill');fp.style.width=(r.n?r.partial/r.n*100:0)+'%';fp.style.background=color[i];fp.style.opacity='.35';fp.style.marginTop='-12px';fp.style.marginLeft=(r.n?r.correct/r.n*100:0)+'%';t.append(fp);
+      const txt=el('div');txt.append(el('b','',`${r.correct}/${r.n}`),el('span','mute',` ${r.n?Math.round(r.correct/r.n*100):0}%`+(r.partial?` · +${r.partial} partial`:'')+(r.exact_text!=null?` · exact text ${r.exact_text}`:'')));
+      c.append(t,txt);p.append(c)})});
+  const l=$('#like');l.replaceChildren();l.append(el('div','pname','Same 20 original questions'));
+  keys.forEach((k,i)=>{const s=el('div','seq');s.append(dot(color[i]));let first=null,last=null,n=0;
+    H.forEach((e,j)=>{const r=e.methods[k];if(!r||!r.orig_n)return;if(n++)s.append(el('span','arr','→'));s.append(el('span','lab',e.name||''),el('b','',`${r.orig_correct}/${r.orig_n}`));if(first==null)first=r.orig_correct;last=r.orig_correct});
+    if(n>1){const d=last-first;s.append(el('span','delta '+(d>0?'up':d<0?'down':''),(d>0?'+':'')+d))}
+    if(!n)s.append(el('span','mute','—'));l.append(s)})}
+function vcls(v){return v==='correct'?'y':v==='wrong'?'n':v==='partial'?'p':''}
+function journey(q,r){const v=el('span','verdict'),j=el('span','journey');
+  if(!r){v.append(el('span','vt','no run'));return v}
+  for(let k=0;k<3;k++){const i=el('i');const c=[r.found,r.kept,r.returned][k];i.className=!r.n?'x':r.steps[k]===true?'y':c>0?'p':'n';j.append(i)}
+  const a=el('i');a.className=vcls(r.verdict);j.append(a);
+  if(q.evidence){const e=el('span','ev '+(r.evidence===true?'y':r.evidence===false?'n':'u'),'E');j.append(e)}
+  v.append(j,el('span','vt '+vcls(r.verdict),r.verdict||(r.stage?LOST[r.stage-1].toLowerCase():'')));return v}
+function ctxNode(txt,quotes){const c=el('div','ctx');txt=txt||'';if(!txt){c.textContent='(nothing returned)';return c}
+  const low=txt.toLowerCase(),hits=[];
+  for(const qt of quotes){if(!qt)continue;let at=low.indexOf(qt.toLowerCase());while(at>=0){hits.push([at,at+qt.length]);at=low.indexOf(qt.toLowerCase(),at+qt.length)}}
+  hits.sort((a,b)=>a[0]-b[0]);let pos=0;
+  for(const [s,e] of hits){if(s<pos)continue;c.append(document.createTextNode(txt.slice(pos,s)),el('mark','',txt.slice(s,e)));pos=e}
+  c.append(document.createTextNode(txt.slice(pos)));return c}
+// Chips
+const chips=$('#chips'),legend=chips.firstChild;
+for(const [f,label] of [['all','All'],['hard','Hard'],['hidden','Hidden'],['diff','Methods disagree'],['fail','Either failed']]){
+  const c=el('button','chip'+(f==='all'?' on':''),label);c.dataset.f=f;
+  c.onclick=()=>{chips.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');filter=f;render()};chips.insertBefore(c,legend)}
+selA.onchange=selB.onchange=render;render();
+</script></body></html>

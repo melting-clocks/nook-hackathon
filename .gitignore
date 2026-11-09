@@ -1,0 +1,8 @@
+# Real eval data is private company data: keep it out of git.
+data/private/
+out/
+*.env
+.env*
+gateway-token
+.DS_Store
+node_modules/

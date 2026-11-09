@@ -1,0 +1,20 @@
+[
+ {
+  "name": "Eval 1",
+  "date": "2026-11-09",
+  "questions": 20,
+  "note": "Regraded with the same judge",
+  "grades_dir": "history/eval1",
+  "exact_text": {
+   "cards_decisions_v1": 2,
+   "elastic_decisions_v1": 5
+  }
+ },
+ {
+  "name": "Eval 2",
+  "date": "2026-11-09",
+  "questions": 40,
+  "note": "+20 hard, 10 hidden",
+  "grades_dir": "grades"
+ }
+]

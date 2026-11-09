@@ -1,0 +1,759 @@
+[
+ {
+  "id": "q1",
+  "question": "What price did we pick for the monthly plan?",
+  "kind": "fact",
+  "answer": "$12 a month.",
+  "gold": [
+   {
+    "note_id": "note-q1-0",
+    "must_include": [
+     "twelve dollars a month"
+    ],
+    "speaker": "Maya",
+    "time": "00:04:10"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q2",
+  "question": "Which city do we launch in first?",
+  "kind": "fact",
+  "answer": "Portland.",
+  "gold": [
+   {
+    "note_id": "note-q2-0",
+    "must_include": [
+     "we start in Portland"
+    ],
+    "speaker": "Theo",
+    "time": "00:02:31"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q3",
+  "question": "Who owns the shop onboarding checklist?",
+  "kind": "fact",
+  "answer": "Priya.",
+  "gold": [
+   {
+    "note_id": "note-q3-0",
+    "must_include": [
+     "Priya owns the onboarding checklist"
+    ],
+    "speaker": "Maya",
+    "time": "00:11:02"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q4",
+  "question": "How long is a standard repair slot?",
+  "kind": "fact",
+  "answer": "45 minutes.",
+  "gold": [
+   {
+    "note_id": "note-q4-0",
+    "must_include": [
+     "slots are forty-five minutes"
+    ],
+    "speaker": "Sam",
+    "time": "00:06:48"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q5",
+  "question": "What exactly did Theo say about cancellations?",
+  "kind": "quote",
+  "answer": "\"No fee if you cancel a day ahead.\"",
+  "gold": [
+   {
+    "note_id": "note-q5-0",
+    "must_include": [
+     "no fee if you cancel a day ahead"
+    ],
+    "speaker": "Theo",
+    "time": "00:09:15"
+   }
+  ],
+  "hard": false,
+  "evidence": true,
+  "split": "dev"
+ },
+ {
+  "id": "q6",
+  "question": "Which payment provider did we choose?",
+  "kind": "fact",
+  "answer": "Stripe.",
+  "gold": [
+   {
+    "note_id": "note-q6-0",
+    "must_include": [
+     "we go with Stripe"
+    ],
+    "speaker": "Sam",
+    "time": "00:03:20"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q7",
+  "question": "What is the target for shops signed by January?",
+  "kind": "fact",
+  "answer": "25 shops.",
+  "gold": [
+   {
+    "note_id": "note-q7-0",
+    "must_include": [
+     "twenty-five shops by January"
+    ],
+    "speaker": "Maya",
+    "time": "00:01:55"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q8",
+  "question": "Where do repair photos get stored?",
+  "kind": "fact",
+  "answer": "In the job record, attached by the mechanic.",
+  "gold": [
+   {
+    "note_id": "note-q8-0",
+    "must_include": [
+     "photos live on the job record"
+    ],
+    "speaker": "Priya",
+    "time": "00:07:40"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q9",
+  "question": "What did we name the mechanic app?",
+  "kind": "fact",
+  "answer": "Wrench.",
+  "gold": [
+   {
+    "note_id": "note-q9-0",
+    "must_include": [
+     "call it Wrench"
+    ],
+    "speaker": "Theo",
+    "time": "00:12:05"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q10",
+  "question": "When is the beta feedback session?",
+  "kind": "fact",
+  "answer": "Thursday at 3 PM.",
+  "gold": [
+   {
+    "note_id": "note-q10-0",
+    "must_include": [
+     "Thursday at three for beta feedback"
+    ],
+    "speaker": "Sam",
+    "time": "00:00:48"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q11",
+  "question": "What number did Priya give for no-show rate?",
+  "kind": "quote",
+  "answer": "\"About eight percent.\"",
+  "gold": [
+   {
+    "note_id": "note-q11-0",
+    "must_include": [
+     "about eight percent"
+    ],
+    "speaker": "Priya",
+    "time": "00:05:33"
+   }
+  ],
+  "hard": false,
+  "evidence": true,
+  "split": "dev"
+ },
+ {
+  "id": "q12",
+  "question": "Which shops are in the pilot?",
+  "kind": "fact",
+  "answer": "Spoke & Chain and Rose City Cycles.",
+  "gold": [
+   {
+    "note_id": "note-q12-0",
+    "must_include": [
+     "Spoke & Chain and Rose City Cycles"
+    ],
+    "speaker": "Maya",
+    "time": "00:08:12"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q13",
+  "question": "What is the refund window?",
+  "kind": "fact",
+  "answer": "14 days.",
+  "gold": [
+   {
+    "note_id": "note-q13-0",
+    "must_include": [
+     "fourteen-day refund window"
+    ],
+    "speaker": "Sam",
+    "time": "00:10:27"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q14",
+  "question": "How do customers get reminders?",
+  "kind": "fact",
+  "answer": "By text message the evening before.",
+  "gold": [
+   {
+    "note_id": "note-q14-0",
+    "must_include": [
+     "text the evening before"
+    ],
+    "speaker": "Theo",
+    "time": "00:04:59"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q15",
+  "question": "What does the free tier include?",
+  "kind": "fact",
+  "answer": "One tune-up booking a month.",
+  "gold": [
+   {
+    "note_id": "note-q15-0",
+    "must_include": [
+     "one tune-up booking a month"
+    ],
+    "speaker": "Maya",
+    "time": "00:13:30"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q16",
+  "question": "What exactly did Sam say about the waitlist?",
+  "kind": "quote",
+  "answer": "\"Waitlist opens the minute a slot frees up.\"",
+  "gold": [
+   {
+    "note_id": "note-q16-0",
+    "must_include": [
+     "waitlist opens the minute a slot frees up"
+    ],
+    "speaker": "Sam",
+    "time": "00:06:02"
+   }
+  ],
+  "hard": false,
+  "evidence": true,
+  "split": "dev"
+ },
+ {
+  "id": "q17",
+  "question": "Which analytics tool did we pick?",
+  "kind": "fact",
+  "answer": "PostHog.",
+  "gold": [
+   {
+    "note_id": "note-q17-0",
+    "must_include": [
+     "PostHog for analytics"
+    ],
+    "speaker": "Priya",
+    "time": "00:02:14"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q18",
+  "question": "What is the shop commission?",
+  "kind": "fact",
+  "answer": "10% of each booking.",
+  "gold": [
+   {
+    "note_id": "note-q18-0",
+    "must_include": [
+     "ten percent of each booking"
+    ],
+    "speaker": "Maya",
+    "time": "00:07:07"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q19",
+  "question": "Who is writing the launch email?",
+  "kind": "fact",
+  "answer": "Theo.",
+  "gold": [
+   {
+    "note_id": "note-q19-0",
+    "must_include": [
+     "Theo writes the launch email"
+    ],
+    "speaker": "Sam",
+    "time": "00:14:21"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q20",
+  "question": "What did we decide about dark mode?",
+  "kind": "fact",
+  "answer": "Ship it at launch.",
+  "gold": [
+   {
+    "note_id": "note-q20-0",
+    "must_include": [
+     "dark mode ships at launch"
+    ],
+    "speaker": "Priya",
+    "time": "00:03:44"
+   }
+  ],
+  "hard": false,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q21",
+  "question": "How did the launch date move across the two planning meetings?",
+  "kind": "two_meetings",
+  "answer": "March 1, then pushed to March 15.",
+  "gold": [
+   {
+    "note_id": "note-q21-0",
+    "must_include": [
+     "launch on March first"
+    ],
+    "speaker": "Maya",
+    "time": "00:01:12"
+   },
+   {
+    "note_id": "note-q21-1",
+    "must_include": [
+     "push launch to March fifteenth"
+    ],
+    "speaker": "Maya",
+    "time": "00:02:40"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q22",
+  "question": "What did the two shop interviews say about scheduling?",
+  "kind": "two_meetings",
+  "answer": "Both want same-day slots; one also wants weekend hours.",
+  "gold": [
+   {
+    "note_id": "note-q22-0",
+    "must_include": [
+     "same-day slots matter most"
+    ],
+    "speaker": "Priya",
+    "time": "00:05:10"
+   },
+   {
+    "note_id": "note-q22-1",
+    "must_include": [
+     "weekends too, not just same-day"
+    ],
+    "speaker": "Priya",
+    "time": "00:04:02"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q23",
+  "question": "How did the pilot size change between the kickoff and the review?",
+  "kind": "two_meetings",
+  "answer": "From 3 shops to 2.",
+  "gold": [
+   {
+    "note_id": "note-q23-0",
+    "must_include": [
+     "three pilot shops"
+    ],
+    "speaker": "Sam",
+    "time": "00:00:58"
+   },
+   {
+    "note_id": "note-q23-1",
+    "must_include": [
+     "down to two pilot shops"
+    ],
+    "speaker": "Sam",
+    "time": "00:03:15"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q24",
+  "question": "Did we keep the plan to charge a booking fee?",
+  "kind": "changed_mind",
+  "answer": "No; we dropped it for a monthly plan.",
+  "gold": [
+   {
+    "note_id": "note-q24-0",
+    "must_include": [
+     "drop the booking fee"
+    ],
+    "speaker": "Maya",
+    "time": "00:06:30"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q25",
+  "question": "What happened to the idea of an Android app first?",
+  "kind": "changed_mind",
+  "answer": "We switched to iOS first.",
+  "gold": [
+   {
+    "note_id": "note-q25-0",
+    "must_include": [
+     "iOS first after all"
+    ],
+    "speaker": "Theo",
+    "time": "00:08:44"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q26",
+  "question": "Are we still building in-app chat?",
+  "kind": "changed_mind",
+  "answer": "No; we replaced it with text messages.",
+  "gold": [
+   {
+    "note_id": "note-q26-0",
+    "must_include": [
+     "replace chat with texts"
+    ],
+    "speaker": "Sam",
+    "time": "00:09:51"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q27",
+  "question": "Is the referral program live?",
+  "kind": "idea_vs_done",
+  "answer": "No, it is only an idea so far.",
+  "gold": [
+   {
+    "note_id": "note-q27-0",
+    "must_include": [
+     "referrals are just an idea for now"
+    ],
+    "speaker": "Priya",
+    "time": "00:11:40"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q28",
+  "question": "Has the shop map been built?",
+  "kind": "idea_vs_done",
+  "answer": "Yes, it shipped last week.",
+  "gold": [
+   {
+    "note_id": "note-q28-0",
+    "must_include": [
+     "the shop map shipped last week"
+    ],
+    "speaker": "Theo",
+    "time": "00:01:33"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q29",
+  "question": "Did we start the loyalty points work?",
+  "kind": "idea_vs_done",
+  "answer": "No, it was parked.",
+  "gold": [
+   {
+    "note_id": "note-q29-0",
+    "must_include": [
+     "loyalty points are parked"
+    ],
+    "speaker": "Maya",
+    "time": "00:12:18"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q30",
+  "question": "What did we decide about scooter repairs?",
+  "kind": "never_discussed",
+  "answer": "Not in memory.",
+  "gold": [],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q31",
+  "question": "Which investor did we pitch in October?",
+  "kind": "never_discussed",
+  "answer": "Not in memory.",
+  "gold": [],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q32",
+  "question": "What is our policy on e-bike batteries?",
+  "kind": "never_discussed",
+  "answer": "Not in memory.",
+  "gold": [],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q33",
+  "question": "Who said the pilot should skip invoicing?",
+  "kind": "who_said",
+  "answer": "Sam.",
+  "gold": [
+   {
+    "note_id": "note-q33-0",
+    "must_include": [
+     "skip invoicing in the pilot"
+    ],
+    "speaker": "Sam",
+    "time": "00:04:44"
+   }
+  ],
+  "hard": true,
+  "evidence": true,
+  "split": "hidden"
+ },
+ {
+  "id": "q34",
+  "question": "Who proposed the 45-minute slot length?",
+  "kind": "who_said",
+  "answer": "Sam.",
+  "gold": [
+   {
+    "note_id": "note-q34-0",
+    "must_include": [
+     "slots are forty-five minutes"
+    ],
+    "speaker": "Sam",
+    "time": "00:06:48"
+   }
+  ],
+  "hard": true,
+  "evidence": true,
+  "split": "dev"
+ },
+ {
+  "id": "q35",
+  "question": "What did we say about people who book and never show?",
+  "kind": "no_shared_words",
+  "answer": "We charge no fee but track the roughly 8% rate.",
+  "gold": [
+   {
+    "note_id": "note-q35-0",
+    "must_include": [
+     "about eight percent"
+    ],
+    "speaker": "Priya",
+    "time": "00:05:33"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q36",
+  "question": "How do riders hear back when a mechanic is free?",
+  "kind": "no_shared_words",
+  "answer": "The waitlist opens as soon as a slot frees up.",
+  "gold": [
+   {
+    "note_id": "note-q36-0",
+    "must_include": [
+     "waitlist opens the minute a slot frees up"
+    ],
+    "speaker": "Sam",
+    "time": "00:06:02"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "hidden"
+ },
+ {
+  "id": "q37",
+  "question": "What is the real monthly price (not the draft in the old pricing note)?",
+  "kind": "decoy_trap",
+  "answer": "$12 a month.",
+  "gold": [
+   {
+    "note_id": "note-q37-0",
+    "must_include": [
+     "twelve dollars a month"
+    ],
+    "speaker": "Maya",
+    "time": "00:04:10"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q38",
+  "question": "Which city is the launch city (not the one in the brainstorm list)?",
+  "kind": "decoy_trap",
+  "answer": "Portland.",
+  "gold": [
+   {
+    "note_id": "note-q38-0",
+    "must_include": [
+     "we start in Portland"
+    ],
+    "speaker": "Theo",
+    "time": "00:02:31"
+   }
+  ],
+  "hard": true,
+  "evidence": false,
+  "split": "dev"
+ },
+ {
+  "id": "q39",
+  "question": "What exact refund window did Sam state?",
+  "kind": "exact",
+  "answer": "\"Fourteen-day refund window.\"",
+  "gold": [
+   {
+    "note_id": "note-q39-0",
+    "must_include": [
+     "fourteen-day refund window"
+    ],
+    "speaker": "Sam",
+    "time": "00:10:27"
+   }
+  ],
+  "hard": true,
+  "evidence": true,
+  "split": "hidden"
+ },
+ {
+  "id": "q40",
+  "question": "What exact commission did Maya state?",
+  "kind": "exact",
+  "answer": "\"Ten percent of each booking.\"",
+  "gold": [
+   {
+    "note_id": "note-q40-0",
+    "must_include": [
+     "ten percent of each booking"
+    ],
+    "speaker": "Maya",
+    "time": "00:07:07"
+   }
+  ],
+  "hard": true,
+  "evidence": true,
+  "split": "dev"
+ }
+]

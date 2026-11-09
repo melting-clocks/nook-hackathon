@@ -1,0 +1,6301 @@
+[
+ {
+  "evaluation": {
+   "question_id": "q1"
+  },
+  "latency_ms": 1303,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1303,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q1-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 456,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q1-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 651,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q1-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q1-0] Maya (00:04:10): ... and twelve dollars a month. We agreed to write it down.\n\n[decoy-01] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q1-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q2"
+  },
+  "latency_ms": 1452,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1452,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q2-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 508,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q2-0"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 726,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q2-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q2-0] Theo (00:02:31): ... and we start in Portland. We agreed to write it down.\n\n[decoy-02] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q2-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q3"
+  },
+  "latency_ms": 1471,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1471,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q3-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 514,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q3-0"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 735,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q3-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q3-0] Maya (00:11:02): ... and Priya owns the onboarding checklist. We agreed to write it down.\n\n[decoy-03] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q3-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q4"
+  },
+  "latency_ms": 1249,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1249,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q4-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 437,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q4-0"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 624,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q4-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q4-0] Sam (00:06:48): We talked about this for a while and said we would come back to it.\n\n[decoy-04] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q4-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q5"
+  },
+  "latency_ms": 1495,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1495,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q5-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 523,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "note-q5-0"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 747,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q5-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q5-0] Theo (00:09:15): ... and no fee if you cancel a day ahead. We agreed to write it down.\n\n[decoy-05] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q5-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q6"
+  },
+  "latency_ms": 1482,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1482,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q6-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 518,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "note-q6-0"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 741,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q6-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q6-0] Sam (00:03:20): ... and we go with Stripe. We agreed to write it down.\n\n[decoy-06] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q6-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q7"
+  },
+  "latency_ms": 1611,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1611,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q7-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 563,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "note-q7-0"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 805,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q7-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q7-0] Maya (00:01:55): We talked about this for a while and said we would come back to it.\n\n[decoy-07] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q7-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q8"
+  },
+  "latency_ms": 1681,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1681,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q8-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 588,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q8-0"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 840,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q8-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q8-0] Priya (00:07:40): ... and photos live on the job record. We agreed to write it down.\n\n[decoy-08] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q8-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q9"
+  },
+  "latency_ms": 1632,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1632,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q9-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 571,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q9-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 816,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q9-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q9-0] Theo (00:12:05): ... and call it Wrench. We agreed to write it down.\n\n[decoy-09] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q9-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q10"
+  },
+  "latency_ms": 1207,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1207,
+     "degraded": [],
+     "output": [
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 422,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "note-q10-0"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 603,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q10-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[decoy-10] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q11"
+  },
+  "latency_ms": 1672,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1672,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q11-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 585,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q11-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 836,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q11-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q11-0] Priya (00:05:33): We talked about this for a while and said we would come back to it.\n\n[decoy-11] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q11-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q12"
+  },
+  "latency_ms": 1614,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1614,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q12-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 564,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q12-0"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 807,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q12-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q12-0] Maya (00:08:12): ... and Spoke & Chain and Rose City Cycles. We agreed to write it down.\n\n[decoy-12] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q12-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q13"
+  },
+  "latency_ms": 1144,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1144,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q13-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 400,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q13-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 572,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q13-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q13-0] Sam (00:10:27): We talked about this for a while and said we would come back to it.\n\n[decoy-13] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q13-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q14"
+  },
+  "latency_ms": 1296,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1296,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q14-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 453,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q14-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 648,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q14-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q14-0] Theo (00:04:59): ... and text the evening before. We agreed to write it down.\n\n[decoy-14] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q14-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q15"
+  },
+  "latency_ms": 1315,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1315,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q15-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 460,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "note-q15-0"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 657,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q15-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q15-0] Maya (00:13:30): ... and one tune-up booking a month. We agreed to write it down.\n\n[decoy-15] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q15-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q16"
+  },
+  "latency_ms": 1504,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1504,
+     "degraded": [],
+     "output": [
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 526,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q16-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 752,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q16-0",
+            "outcome": "dropped",
+            "probability": 0.31
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[decoy-16] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q17"
+  },
+  "latency_ms": 1731,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1731,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q17-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 605,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q17-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 865,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q17-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q17-0] Priya (00:02:14): We talked about this for a while and said we would come back to it.\n\n[decoy-17] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q17-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q18"
+  },
+  "latency_ms": 1990,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1990,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q18-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 696,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q18-0"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 995,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q18-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q18-0] Maya (00:07:07): ... and ten percent of each booking. We agreed to write it down.\n\n[decoy-18] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q18-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q19"
+  },
+  "latency_ms": 1667,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1667,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q19-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 583,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q19-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 833,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q19-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q19-0] Sam (00:14:21): We talked about this for a while and said we would come back to it.\n\n[decoy-19] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q19-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q20"
+  },
+  "latency_ms": 1820,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1820,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q20-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 637,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q20-0"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 910,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q20-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q20-0] Priya (00:03:44): ... and dark mode ships at launch. We agreed to write it down.\n\n[decoy-20] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q20-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q21"
+  },
+  "latency_ms": 1514,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1514,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q21-0"
+      },
+      {
+       "id": "note-q21-1"
+      },
+      {
+       "id": "decoy-27"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 529,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q21-0"
+           },
+           {
+            "id": "note-q21-1"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 757,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q21-0",
+            "outcome": "kept",
+            "probability": 0.9
+           },
+           {
+            "id": "note-q21-1",
+            "outcome": "kept",
+            "probability": 0.85
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q21-0] Maya (00:01:12): ... and launch on March first. We agreed to write it down.\n\n[note-q21-1] Maya (00:02:40): ... and push launch to March fifteenth. We agreed to write it down.\n\n[decoy-21] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q21-0"
+       },
+       {
+        "memory_id": "note-q21-1"
+       },
+       {
+        "memory_id": "decoy-27"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q22"
+  },
+  "latency_ms": 1827,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1827,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q22-0"
+      },
+      {
+       "id": "decoy-27"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 639,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "note-q22-0"
+           },
+           {
+            "id": "note-q22-1"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 913,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q22-0",
+            "outcome": "kept",
+            "probability": 0.9
+           },
+           {
+            "id": "note-q22-1",
+            "outcome": "kept",
+            "probability": 0.85
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q22-0] Priya (00:05:10): We talked about this for a while and said we would come back to it.\n\n[decoy-22] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q22-0"
+       },
+       {
+        "memory_id": "decoy-27"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q23"
+  },
+  "latency_ms": 1214,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1214,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q23-0"
+      },
+      {
+       "id": "note-q23-1"
+      },
+      {
+       "id": "decoy-27"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 424,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q23-0"
+           },
+           {
+            "id": "note-q23-1"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 607,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q23-0",
+            "outcome": "kept",
+            "probability": 0.9
+           },
+           {
+            "id": "note-q23-1",
+            "outcome": "kept",
+            "probability": 0.85
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q23-0] Sam (00:00:58): ... and three pilot shops. We agreed to write it down.\n\n[note-q23-1] Sam (00:03:15): We talked about this for a while and said we would come back to it.\n\n[decoy-23] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q23-0"
+       },
+       {
+        "memory_id": "note-q23-1"
+       },
+       {
+        "memory_id": "decoy-27"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q24"
+  },
+  "latency_ms": 1506,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1506,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q24-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 527,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q24-0"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 753,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q24-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q24-0] Maya (00:06:30): We talked about this for a while and said we would come back to it.\n\n[decoy-24] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q24-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q25"
+  },
+  "latency_ms": 1612,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1612,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q25-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 564,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "note-q25-0"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 806,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q25-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q25-0] Theo (00:08:44): ... and iOS first after all. We agreed to write it down.\n\n[decoy-25] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q25-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q26"
+  },
+  "latency_ms": 1711,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1711,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q26-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 598,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "note-q26-0"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 855,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q26-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q26-0] Sam (00:09:51): We talked about this for a while and said we would come back to it.\n\n[decoy-26] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q26-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q27"
+  },
+  "latency_ms": 1622,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1622,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q27-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 567,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "note-q27-0"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 811,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q27-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q27-0] Priya (00:11:40): ... and referrals are just an idea for now. We agreed to write it down.\n\n[decoy-27] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q27-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q28"
+  },
+  "latency_ms": 1600,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1600,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q28-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 560,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "note-q28-0"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 800,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q28-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q28-0] Theo (00:01:33): ... and the shop map shipped last week. We agreed to write it down.\n\n[decoy-28] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q28-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q29"
+  },
+  "latency_ms": 1243,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1243,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q29-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 435,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "note-q29-0"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 621,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q29-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q29-0] Maya (00:12:18): ... and loyalty points are parked. We agreed to write it down.\n\n[decoy-29] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q29-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q30"
+  },
+  "latency_ms": 1803,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1803,
+     "degraded": [],
+     "output": [
+      {
+       "id": "decoy-29"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 631,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           },
+           {
+            "id": "decoy-29"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 901,
+         "detail": {
+          "judged": []
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[decoy-30] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "decoy-29"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q31"
+  },
+  "latency_ms": 1204,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1204,
+     "degraded": [],
+     "output": [
+      {
+       "id": "decoy-29"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 421,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           },
+           {
+            "id": "decoy-29"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 602,
+         "detail": {
+          "judged": []
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[decoy-31] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "decoy-29"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q32"
+  },
+  "latency_ms": 1638,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1638,
+     "degraded": [],
+     "output": [
+      {
+       "id": "decoy-29"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 573,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           },
+           {
+            "id": "decoy-29"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 819,
+         "detail": {
+          "judged": []
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[decoy-32] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "decoy-29"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q33"
+  },
+  "latency_ms": 1445,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1445,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q33-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 505,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q33-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 722,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q33-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q33-0] Sam (00:04:44): We talked about this for a while and said we would come back to it.\n\n[decoy-33] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q33-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q34"
+  },
+  "latency_ms": 1712,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1712,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q34-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 599,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q34-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 856,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q34-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q34-0] Sam (00:06:48): ... and slots are forty-five minutes. We agreed to write it down.\n\n[decoy-34] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q34-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q35"
+  },
+  "latency_ms": 2300,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 2300,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q35-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 805,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "note-q35-0"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 1150,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q35-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q35-0] Priya (00:05:33): We talked about this for a while and said we would come back to it.\n\n[decoy-00] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q35-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q36"
+  },
+  "latency_ms": 1713,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1713,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q36-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 599,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q36-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 856,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q36-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q36-0] Sam (00:06:02): We talked about this for a while and said we would come back to it.\n\n[decoy-01] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q36-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q37"
+  },
+  "latency_ms": 1152,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1152,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q37-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 403,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "note-q37-0"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 576,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q37-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q37-0] Maya (00:04:10): ... and twelve dollars a month. We agreed to write it down.\n\n[decoy-02] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q37-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q38"
+  },
+  "latency_ms": 1779,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1779,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q38-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 622,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "note-q38-0"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 889,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q38-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q38-0] Theo (00:02:31): We talked about this for a while and said we would come back to it.\n\n[decoy-03] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q38-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q39"
+  },
+  "latency_ms": 1274,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1274,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q39-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 445,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "note-q39-0"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 637,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q39-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q39-0] Sam (00:10:27): We talked about this for a while and said we would come back to it.\n\n[decoy-04] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q39-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "evaluation": {
+   "question_id": "q40"
+  },
+  "latency_ms": 1236,
+  "trace": {
+   "runs": [
+    {
+     "duration_ms": 1236,
+     "degraded": [],
+     "output": [
+      {
+       "id": "note-q40-0"
+      },
+      {
+       "id": "decoy-28"
+      }
+     ],
+     "queries": [
+      {
+       "base": {
+        "stages": [
+         {
+          "stage": "current_search",
+          "duration_ms": 432,
+          "detail": [
+           {
+            "id": "decoy-00"
+           },
+           {
+            "id": "decoy-01"
+           },
+           {
+            "id": "decoy-02"
+           },
+           {
+            "id": "decoy-03"
+           },
+           {
+            "id": "decoy-04"
+           },
+           {
+            "id": "decoy-05"
+           },
+           {
+            "id": "decoy-06"
+           },
+           {
+            "id": "note-q40-0"
+           },
+           {
+            "id": "decoy-07"
+           },
+           {
+            "id": "decoy-08"
+           },
+           {
+            "id": "decoy-09"
+           },
+           {
+            "id": "decoy-10"
+           },
+           {
+            "id": "decoy-11"
+           },
+           {
+            "id": "decoy-12"
+           },
+           {
+            "id": "decoy-13"
+           },
+           {
+            "id": "decoy-14"
+           },
+           {
+            "id": "decoy-15"
+           },
+           {
+            "id": "decoy-16"
+           },
+           {
+            "id": "decoy-17"
+           },
+           {
+            "id": "decoy-18"
+           },
+           {
+            "id": "decoy-19"
+           },
+           {
+            "id": "decoy-20"
+           },
+           {
+            "id": "decoy-21"
+           },
+           {
+            "id": "decoy-22"
+           },
+           {
+            "id": "decoy-23"
+           },
+           {
+            "id": "decoy-24"
+           },
+           {
+            "id": "decoy-25"
+           },
+           {
+            "id": "decoy-26"
+           },
+           {
+            "id": "decoy-27"
+           },
+           {
+            "id": "decoy-28"
+           }
+          ]
+         }
+        ]
+       },
+       "stages": [
+        {
+         "stage": "decisions",
+         "duration_ms": 618,
+         "detail": {
+          "judged": [
+           {
+            "id": "note-q40-0",
+            "outcome": "kept",
+            "probability": 0.9
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "response": {
+   "runs": [
+    {
+     "result": {
+      "context": "[note-q40-0] Maya (00:07:07): ... and ten percent of each booking. We agreed to write it down.\n\n[decoy-05] Brainstorm list: ideas, drafts and open questions.",
+      "sources": [
+       {
+        "memory_id": "note-q40-0"
+       },
+       {
+        "memory_id": "decoy-28"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+]

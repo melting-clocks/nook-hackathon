@@ -1,0 +1,206 @@
+{
+ "timestamp": "2026-11-09T22:30:00Z",
+ "method": "elastic_decisions_v1",
+ "cases": [
+  {
+   "id": "q1",
+   "latency_ms": 1132,
+   "trace_url": null
+  },
+  {
+   "id": "q2",
+   "latency_ms": 1660,
+   "trace_url": null
+  },
+  {
+   "id": "q3",
+   "latency_ms": 1431,
+   "trace_url": null
+  },
+  {
+   "id": "q4",
+   "latency_ms": 1990,
+   "trace_url": null
+  },
+  {
+   "id": "q5",
+   "latency_ms": 1756,
+   "trace_url": null
+  },
+  {
+   "id": "q6",
+   "latency_ms": 1582,
+   "trace_url": null
+  },
+  {
+   "id": "q7",
+   "latency_ms": 1797,
+   "trace_url": null
+  },
+  {
+   "id": "q8",
+   "latency_ms": 1517,
+   "trace_url": null
+  },
+  {
+   "id": "q9",
+   "latency_ms": 1015,
+   "trace_url": null
+  },
+  {
+   "id": "q10",
+   "latency_ms": 1199,
+   "trace_url": null
+  },
+  {
+   "id": "q11",
+   "latency_ms": 1655,
+   "trace_url": null
+  },
+  {
+   "id": "q12",
+   "latency_ms": 2300,
+   "trace_url": null
+  },
+  {
+   "id": "q13",
+   "latency_ms": 1741,
+   "trace_url": null
+  },
+  {
+   "id": "q14",
+   "latency_ms": 1661,
+   "trace_url": null
+  },
+  {
+   "id": "q15",
+   "latency_ms": 1414,
+   "trace_url": null
+  },
+  {
+   "id": "q16",
+   "latency_ms": 1823,
+   "trace_url": null
+  },
+  {
+   "id": "q17",
+   "latency_ms": 1134,
+   "trace_url": null
+  },
+  {
+   "id": "q18",
+   "latency_ms": 1230,
+   "trace_url": null
+  },
+  {
+   "id": "q19",
+   "latency_ms": 1310,
+   "trace_url": null
+  },
+  {
+   "id": "q20",
+   "latency_ms": 1554,
+   "trace_url": null
+  },
+  {
+   "id": "q21",
+   "latency_ms": 1725,
+   "trace_url": null
+  },
+  {
+   "id": "q22",
+   "latency_ms": 1006,
+   "trace_url": null
+  },
+  {
+   "id": "q23",
+   "latency_ms": 1084,
+   "trace_url": null
+  },
+  {
+   "id": "q24",
+   "latency_ms": 1652,
+   "trace_url": null
+  },
+  {
+   "id": "q25",
+   "latency_ms": 1024,
+   "trace_url": null
+  },
+  {
+   "id": "q26",
+   "latency_ms": 1500,
+   "trace_url": null
+  },
+  {
+   "id": "q27",
+   "latency_ms": 1580,
+   "trace_url": null
+  },
+  {
+   "id": "q28",
+   "latency_ms": 1061,
+   "trace_url": null
+  },
+  {
+   "id": "q29",
+   "latency_ms": 1031,
+   "trace_url": null
+  },
+  {
+   "id": "q30",
+   "latency_ms": 1354,
+   "trace_url": null
+  },
+  {
+   "id": "q31",
+   "latency_ms": 1087,
+   "trace_url": null
+  },
+  {
+   "id": "q32",
+   "latency_ms": 1025,
+   "trace_url": null
+  },
+  {
+   "id": "q33",
+   "latency_ms": 1075,
+   "trace_url": null
+  },
+  {
+   "id": "q34",
+   "latency_ms": 1543,
+   "trace_url": null
+  },
+  {
+   "id": "q35",
+   "latency_ms": 1691,
+   "trace_url": null
+  },
+  {
+   "id": "q36",
+   "latency_ms": 1402,
+   "trace_url": null
+  },
+  {
+   "id": "q37",
+   "latency_ms": 1106,
+   "trace_url": null
+  },
+  {
+   "id": "q38",
+   "latency_ms": 1570,
+   "trace_url": null
+  },
+  {
+   "id": "q39",
+   "latency_ms": 1794,
+   "trace_url": null
+  },
+  {
+   "id": "q40",
+   "latency_ms": 1088,
+   "trace_url": null
+  }
+ ]
+}

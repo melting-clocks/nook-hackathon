@@ -1,0 +1,282 @@
+[
+ {
+  "id": "q1",
+  "agent_answer": "$12 a month.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q2",
+  "agent_answer": "Portland.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q3",
+  "agent_answer": "Priya.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q4",
+  "agent_answer": "45 minutes.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q5",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": false
+ },
+ {
+  "id": "q6",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q7",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q8",
+  "agent_answer": "In the job record, attached by the mechanic.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q9",
+  "agent_answer": "Wrench.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q10",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q11",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": false
+ },
+ {
+  "id": "q12",
+  "agent_answer": "Spoke & Chain and Rose City Cycles.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q13",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q14",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q15",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q16",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": false
+ },
+ {
+  "id": "q17",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q18",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q19",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q20",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q21",
+  "agent_answer": "March 1, then pushed to March 15.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q22",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q23",
+  "agent_answer": "From 3 shops to 2.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q24",
+  "agent_answer": "No; we dropped it for a monthly plan.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q25",
+  "agent_answer": "We switched to iOS first.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q26",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q27",
+  "agent_answer": "No, it is only an idea so far.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q28",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q29",
+  "agent_answer": "No, it was parked.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q30",
+  "agent_answer": "Not in memory.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q31",
+  "agent_answer": "We decided to handle it case by case.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q32",
+  "agent_answer": "Not in memory.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q33",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": false
+ },
+ {
+  "id": "q34",
+  "agent_answer": "Sam.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": true
+ },
+ {
+  "id": "q35",
+  "agent_answer": "We charge no fee but track the roughly 8% rate.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q36",
+  "agent_answer": "The waitlist opens as soon as a slot frees up.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": null
+ },
+ {
+  "id": "q37",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": null
+ },
+ {
+  "id": "q38",
+  "agent_answer": "The notes touch on this, but the context does not give the full detail.",
+  "verdict": "partial",
+  "reason": "Right source, key detail missing.",
+  "evidence": null
+ },
+ {
+  "id": "q39",
+  "agent_answer": "Fourteen-day refund window.",
+  "verdict": "correct",
+  "reason": "Matches the key.",
+  "evidence": true
+ },
+ {
+  "id": "q40",
+  "agent_answer": "It is not in memory.",
+  "verdict": "wrong",
+  "reason": "Answer not supported by the context.",
+  "evidence": false
+ }
+]
